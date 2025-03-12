@@ -1,5 +1,4 @@
 import Recipe from "@/models/recipeModel";
-import mongoose from "mongoose";
 
 export default async function Page(props: { params: Promise<{ id: string }> }) {
   try {
