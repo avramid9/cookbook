@@ -5,6 +5,7 @@ export function ViewRecipe({ id }: { id: string }) {
     <Link
       href={`/dashboard/${id}`}
       className="btn btn-primary"
+      prefetch = {false}
     >
       Read recipe
     </Link>
