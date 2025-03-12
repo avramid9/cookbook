@@ -7,7 +7,7 @@ export default function Home() {
         <div className="max-w-md">
           <h1 className="text-5xl font-bold">Cookbook</h1>
           <p className="py-6">
-            Welcome to my cookbook website where you can create and save all of your favourite recipies!
+            Welcome to my cookbook website where you can create and save all of your favourite recipes!
           </p>
           <button className="btn btn-primary">Log in!</button>
         </div>
